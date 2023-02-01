@@ -1,4 +1,4 @@
-USE movie_db;
+USE movies_db;
 
 INSERT INTO movies(title)
 VALUES

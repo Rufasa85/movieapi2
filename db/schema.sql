@@ -5,7 +5,7 @@ USE movies_db;
 
 CREATE TABLE movies (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(200) NOT NULL
+    title VARCHAR(200) NOT NULL UNIQUE
 );
 
 CREATE TABLE reviews (
